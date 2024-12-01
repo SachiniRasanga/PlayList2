@@ -10,8 +10,9 @@
 <body>
    <div class="grid-container">
      <div class="layout_1">
-        <h4>Conditions :  
-                <button>Condition 1</button>
+        <h4>Conditions : 
+                
+                <button style="margin-left: 50px;">Condition 1</button>
                 <button>Condition 2</button>
                 <button>Condition 3</button>
                 <button>Condition 4</button>
@@ -20,7 +21,7 @@
                 <button>Test test Button</button>
         </h4>
         <h4>Risks :
-            <button>Condition 1</button>
+            <button style="margin-left: 83px;" >Condition 1</button>
             <button>Condition 2</button>
             <button>Condition 3</button>
             <button>Condition 4</button>
@@ -29,7 +30,7 @@
             <button>Test test Button</button>
         </h4>
         <h4>Treatments :
-            <button>Condition 1</button>
+            <button style="margin-left: 45px;" >Condition 1</button>
             <button>Condition 2</button>
             <button>Condition 3</button>
             <button>Condition 4</button>
@@ -38,7 +39,7 @@
             <button>Test test Button</button>
         </h4>
         <h4>Sub Traetment :
-            <button>Condition 1</button>
+            <button style="margin-left: 25px;" >Condition 1</button>
             <button>Condition 2</button>
             <button>Condition 3</button>
             <button>Condition 4</button>
@@ -50,8 +51,16 @@
      <div class="layout_2">
         
         <h2>Video 1</h2>
+        <div>
             <video src="./Images/music.mp4" controls></video>
-
+            
+                <div class="thumbnail">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
     </div>
      <div class="layout_3">
         <h3>Uploads</h3>
@@ -67,9 +76,10 @@
                 <img src="./images/image.jpg">
             </div>
 
-            
-            
-            
+            <div class="card">
+                <img src="./images/image.jpg">
+            </div>
+
         </div>
         <button >Submit</button>
      </div>
