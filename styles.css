@@ -187,7 +187,10 @@ body {
             "layout3";
         gap: 20px;
     }
+    .grid-container .layout_1{
 
+        overflow-x: scroll;
+    }
     .grid-container .layout_1, 
     .grid-container .layout_2, 
     .grid-container .layout_3 {
